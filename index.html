@@ -4,10 +4,223 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-</head>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+ </head>
 <body>
   <div class="page">
-
+<header class="header">
+  <div class="logo header__logo_place">Яндекс Практикум</div>
+  <h2 class="header__title">Научиться учиться</h2>
+  <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+    <a href="#" class="link">Узнать -></a>
+  </p>
+  <img src="images/header-image.png" alt="Подождите немного, сейчас загрузиться" class="header__main-illustration">
+  <div class="header__square-pic"></div>
+</header>
+<main>
+  <section class="description">
+    <ul class="two-columns"> 
+      <li class="two-columns__brief">
+      <a href="#" class="link">Главные проблемы в обучении</a>
+      </li>
+      <li  class="two-columns__main-text">
+          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это нам не даёт реального знания. Зубрёжка быстро выветривается и не даёт нам пользы.</p>
+          <p class="two-columns__paragraph middle"><span class="bold">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+      </li>
+     </ul>
+  </section>
+  <div class="digits">
+     <section class="digits__title">
+      <div class="title__text">
+        <h2>Цифры и факты</h2>
+      </div>
+      <div class="subtitle__text">
+          <p>Про учёбу и мозг</p>
+      </div>
+    </div>
+      <ul class="table">
+        <li class="table__cell">
+          <h2 class="table__heading">86 миллиардов</h2>
+          <p class="table__text">Число нейронов в мозге человека</p>
+        </li>
+        <li class="table__cell">
+          <h2 class="table__heading">2.1 миллиарда</h2>
+          <p class="table__text">Число нуждающихся в повышении квалификации</p>
+          <p class="table__text table__text__footer">Всемирный Банк, 2017</p>
+        </li>
+        <li class="table__cell">
+          <h2 class="table__heading">1000 терабайт</h2>
+          <p class="table__text">Объём памяти человека</p>
+        </li>
+        <li class="table__cell">
+          <h2 class="table__heading">500 триллионов</h2>
+          <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+        </li>
+        <li class="table__cell">
+          <h2 class="table__heading">420 миллионов</h2>
+          <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+          <p class="table__text table__text__footer">Всемирный Банк, 2017</p>
+        </li>
+        <li class="table__cell">
+          <h2 class="table__heading">17–20 лет</h2>
+          <p class="table__text">Пик обучаемости</p>
+        </li>
+        <li class="table__cell">
+          <h2 class="table__heading">1885 год</h2>
+          <p class="table__text">Открытие кривой забывания</p>
+        </li>
+        <li class="table__cell">
+          <h2 class="table__heading">1889 год</h2>
+          <p class="table__text">Открытие условного рефлекса</p>
+        </li>
+      </ul>
+        </section>
+ 
+  <!-- Я сначала пытался сделать таблицей, но потом мне показалось что таблица не правильно,
+а удалять жалко") 
+    <section class="digits">
+    <section class="title">
+      <div class="section-title">
+        <h1>Цифры и факты</h1>
+      </div>
+      <div class="section-subtitle">
+        <p>Про учёбу и мозг</p>
+      </div>
+    </section>
+    <table class="table">
+      <tr>
+      <th class="table__cell">
+        <h2 class="table__heading">86 миллиардов</h2>
+        <p class="table__text">Число нейронов в мозге человека</p>
+      </th>
+      <th class="table__cell">
+        <h2 class="table__heading">2.1 миллиарда</h2>
+        <p class="table__text">Число нуждающихся в повышении квалификации</p>
+          <p class="table__text bank">Всемирный Банк, 2017</p>
+        </th>
+      <th class="table__cell">
+        <h2 class="table__heading">1000 терабайт</h2>
+        <p class="table__text">Объём памяти человека</p>
+      </th>
+      <th class="table__cell">
+        <h2 class="table__heading">500 триллионов</h2>
+        <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+      </th>
+      </tr>
+      <tr>
+      <th class="table__cell">
+        <h2 class="table__heading">420 миллионов</h2>
+        <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+          <p class="table__text bank">Всемирный Банк, 2017</p>
+      </th>
+      <th class="table__cell">
+        <h2 class="table__heading">17–20 лет</h2>
+        <p class="table__text">Пик обучаемости</p>
+      </th>>
+      <th class="table__cell">
+        <h2 class="table__heading">1885 год</h2>
+        <p class="table__text">Открытие кривой забывания</p>
+      </th>
+      <th class="table__cell">
+        <h2 class="table__heading">1889 год</h2>
+        <p class="table__text">Открытие условного рефлекса</p>
+      </th>
+    </table>
+  </section>-->
+  <section class="feynman">
+    <h2 class="feynman__title">Метод Фейнмана</h2>
+    <p class="feynman__subtitle">Выучить и не забыть</p>
+    <a href="#" class="feynman__link">Подробнее -></a>
+    <img src="images/feynman.png" alt="Подождите немного, сейчас загрузиться" class="feynman__image">
+  </section>
+  <section class="kaufman">
+    <div class="kaufman__digits">
+      <section class="digits__title">
+       <div class="title__text section-title_theme_dark">
+         <h3>Принципы обучения</h3>
+       </div>
+       <div class="subtitle__text section-subtitle_theme_dark">
+           <p>от Джоша Кауфмана</p>
+       </div>
+     </div>
+       <ul class="table table__theme_dark">
+         <li class="table__cell table__cell_theme_dark">
+           <h2 class="table__heading">1</h2>
+           <p class="table__text">Выберите привлекательный проект.</p>
+         </li>
+         <li class="table__cell table__cell_theme_dark">
+           <h2 class="table__heading">2</h2>
+           <p class="table__text">Сосредоточьтесь на каком-то одном навыке.</p>
+         </li>
+         <li class="table__cell table__cell_theme_dark">
+           <h2 class="table__heading">3</h2>
+           <p class="table__text">Определите целевой уровень мастерства.</p>
+         </li>
+         <li class="table__cell table__cell_theme_dark">
+           <h2 class="table__heading">4</h2>
+           <p class="table__text">Разбейте навык на элементы.</p>
+         </li>
+         <li class="table__cell table__cell_theme_dark">
+           <h2 class="table__heading">5</h2>
+           <p class="table__text">Приготовьте всё необходимое для занятий.</p>
+         </li>
+         <li class="table__cell table__cell_theme_dark">
+           <h2 class="table__heading">6</h2>
+           <p class="table__text">Устраните препятствия для занятий.</p>
+         </li>
+         <li class="table__cell table__cell_theme_dark">
+           <h2 class="table__heading">7</h2>
+           <p class="table__text">Выделите специальное время для занятий.</p>
+         </li>
+         <li class="table__cell table__cell_theme_dark">
+           <h2 class="table__heading">8</h2>
+           <p class="table__text">Создайте быстрые петли обратной связи.</p>
+         </li>
+         <li class="table__cell table__cell_theme_dark">
+          <h2 class="table__heading">9</h2>
+          <p class="table__text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+        </li>
+        <li class="table__cell table__cell_theme_dark">
+          <h2 class="table__heading">10</h2>
+          <p class="table__text">Уделяйте внимание количеству и скорости.</p>
+        </li>
+       </ul>
+       <img src="images/kaufman-triangle.svg" alt="Подождите немного, сейчас загрузиться" class="kaufman-triangle">
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer__columns">
+    <div class="footer__columns_content_copyright">
+      <div class="logo place_footer">Яндекс Практикум</div>
+      <div class="footer__author"> &copy Павел Бондаревский</div>
+    </div>
+    <div class="footer__columns_content_info-social">
+      <div class="footer__columns_content_info">
+        <div class="footer__columns_content_info_container">
+        <h4 class="footer__column-heading">О Практикуме</h4>
+        <ul class="footer__columns_links">
+          <li><a href="#" class="footer__social-icon">Главная</a></li>
+          <li class="range"><a href="#" class="footer__social-icon">Концепция</a></li>
+          <li><a href="#" class="footer__social-icon">Наставники</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="footer__columns_content_social">
+        <div class="footer__columns_content_info_container">
+        <h4 class="footer__column-heading">Соцсети</h4>
+        <ul class="footer__columns_links">
+          <li><a href="#" class="footer__social-icon"><img src="images/facebook_color_white.svg" alt="Здесь должно быть лого" class="image-logo">Facebook</a></li>
+          <li class="range"><a href="#" class="footer__social-icon"><img src="images/vk_color_white.svg" alt="Здесь должно быть лого" class="image-logo">ВКонтакте</a></li>
+          <li><a href="#" class="footer__social-icon"><img src="images/instagram_color_white.svg" alt="Здесь должно быть лого" class="image-logo">Instagram</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="footer_column-link"></div>
+    </div>
+  </div>
+</footer>
   </div>
 </body>
 </html>
