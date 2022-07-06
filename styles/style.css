@@ -183,9 +183,8 @@
   text-align: center;
   min-height: 890px;
   box-sizing: content-box;
-  min-height: 890px;
   z-index: 1;
-  padding-top: 100px;
+  margin-top: 100px;
  }
 
 .feynman__title {
@@ -196,7 +195,7 @@
   max-width: 648px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 100px
+  padding-top: 100px;
  }
 
 .feynman__subtitle {
@@ -277,8 +276,7 @@
 
   .footer {
     background-color: #1f1f1f;
-    min-height: 350px;
-    padding: 60px auto 40px auto;
+    max-height: 350px;
     color: white;
     margin: 0;
    }
@@ -289,6 +287,8 @@
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
+    padding-top: 60px;
+    padding-bottom: 40px;
    }
 
    .footer__column {
