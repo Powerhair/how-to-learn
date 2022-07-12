@@ -88,7 +88,7 @@
 .two-columns {
   display: flex;
   margin: auto;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 .two-columns__brief {
@@ -179,13 +179,6 @@
   text-align: left;
   font-size: 18px;
   line-height: 1.2;
-}
-
-.table_text-footer {
-  margin: 20px 0 0 0;
-  font-size: 18px;
-  line-height: 21.6px;
-  
 }
 
 .feynman {
@@ -317,11 +310,14 @@
     min-height: 250px;
    }
 
-  .footer__column_content-copyright {
+   .footer__column {
     display: flex;
+    flex-direction: column;
+   }
+
+  .footer__column_content_copyright {
     flex-basis: 711px;
     margin: 0;
-    flex-direction: column;
     justify-content: space-between;
     }
   
@@ -335,12 +331,12 @@
     color: white;
   }
 
-  .footer__column_content-info {
+  .footer__column_content_info {
     justify-content: flex-start;
     align-items: flex-start;
   }
   
-  .footer__column_content-social {
+  .footer__column_content_social {
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -362,7 +358,7 @@
     list-style-type: none;
   }
   
-  .footer__column-link {
+  .footer__column_link {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
