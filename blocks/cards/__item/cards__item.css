@@ -1,7 +1,15 @@
-.cards__item {
-  list-style: none;
+  .cards__item {
+    list-style: none;
   margin-top: 60px;
   text-align: center;
   width: 240px;
+  margin-right: 100px;
   }
 
+.cards__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.cards__item:last-child {
+  margin-right: 0;
+}
